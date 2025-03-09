@@ -4,7 +4,7 @@
 
 I am Neslihan Ünal, a sophomore at Sabancı University majoring in Computer Science and Economics. This project, conducted as part of my DSA210 course, examines how macroeconomic indicators—GDP growth, inflation rates, and unemployment rates—affect charitable donations. The objective is to assess whether economic fluctuations influence donation patterns and provide insights for nonprofit organizations and policymakers.
 
-Understanding the economic factors that drive charitable giving is crucial for improving fundraising strategies and ensuring financial stability for nonprofits, especially during economic downturns.
+This study focuses on **the United States and Europe**, where publicly available donation records and macroeconomic data are well-documented. The research primarily investigates the **education and disaster relief sectors**, as these are among the most economically sensitive areas of philanthropy.
 
 ---
 
@@ -18,9 +18,9 @@ By integrating economic theory with data analysis, this research will contribute
 
 ## Objectives
 
-- Analyze the relationship between major macroeconomic indicators (GDP growth, inflation rate, unemployment rate) and donation behaviors.
-- Determine whether macroeconomic fluctuations significantly impact donation amounts.
-- Provide actionable insights for nonprofit organizations to enhance financial planning during different economic conditions.
+- Analyze how macroeconomic indicators such as GDP growth, inflation rate, and unemployment rate affect donation behaviors in the **United States and Europe**.
+- Assess whether variations in these indicators significantly predict changes in charitable donations.
+- Provide actionable insights for nonprofit organizations in the **education and disaster relief sectors** to enhance financial planning during different economic conditions.
 
 ---
 
@@ -43,10 +43,10 @@ By integrating economic theory with data analysis, this research will contribute
 ## Data Sources
 
 - **Macroeconomic Indicators:**  
-  - GDP growth, inflation rates, and unemployment rates from **World Bank, OECD, FRED Economic Database**.
+  - GDP growth, inflation rates, and unemployment rates from **World Bank, OECD, FRED Economic Database, and Eurostat**.
 
 - **Donation Data:**  
-  - Historical donation statistics sourced from **nonprofit annual reports, World Bank philanthropy reports, OECD databases, and FRED records**.
+  - Historical donation statistics sourced from **nonprofit annual reports, World Bank philanthropy reports, OECD databases, FRED records, Charity Navigator (USA), and Giving Europe reports**.
 
 ---
 
@@ -61,7 +61,7 @@ By integrating economic theory with data analysis, this research will contribute
 ## Analysis Plan
 
 ### **Exploratory Data Analysis (EDA)**
-- Examine donation trends during different economic conditions.
+- Examine donation trends in the **United States and Europe** during different economic conditions.
 - Visualize relationships between macroeconomic indicators and donations using scatter plots, line charts, and correlation heatmaps.
 
 ### **Statistical Analysis**
@@ -91,9 +91,9 @@ By integrating economic theory with data analysis, this research will contribute
 
 ## Expected Findings
 
-- Identify how different macroeconomic indicators correlate with donation levels.
+- Identify how different macroeconomic indicators correlate with donation levels in the **United States and Europe**.
 - Determine whether **economic downturns lead to lower charitable contributions** or whether donors increase giving during crises.
-- Provide data-driven recommendations for nonprofit organizations on how to **adapt to economic fluctuations**.
+- Provide data-driven recommendations for nonprofits in the **education and disaster relief sectors** on how to **adapt to economic fluctuations**.
 
 ---
 
@@ -109,13 +109,13 @@ By integrating economic theory with data analysis, this research will contribute
 
 - Expand the study to include **individual donor demographics** and psychographic insights.
 - Incorporate **additional economic factors** such as consumer confidence indices and tax incentives.
-- Conduct a **comparative study across multiple countries** to identify global patterns.
+- Conduct a **comparative study across multiple European countries** to identify regional differences in donation behaviors.
 
 ---
 
 ## Conclusion
 
-This research will provide valuable insights into how macroeconomic fluctuations impact donation behaviors. By identifying key economic predictors of charitable giving, this study can assist nonprofit organizations in financial planning and policy formulation. The findings will contribute to a broader understanding of how economic conditions shape philanthropic behavior.
+This research will provide valuable insights into how macroeconomic fluctuations impact donation behaviors in the **United States and Europe**. By identifying key economic predictors of charitable giving, this study can assist nonprofit organizations in financial planning and policy formulation. The findings will contribute to a broader understanding of how economic conditions shape philanthropic behavior.
 
 ---
 
