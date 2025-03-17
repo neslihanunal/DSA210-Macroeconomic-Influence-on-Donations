@@ -83,26 +83,26 @@ By integrating economic theory with data analysis, this research will contribute
 
 ## Data Collection and Preprocessing
 
-#### Collect Data
+### Collect Data
 - Retrieve macroeconomic indicator data from official databases.
 - Obtain donation records from nonprofit organizations and related sources.
 
-#### Clean and Preprocess Data
+### Clean and Preprocess Data
 - **Align timestamps** and standardize formats.
 - **Address missing values** and remove outliers.
 - **Account for regional differences** in data reporting standards between the United States and Europe.
 
-#### Merge Datasets
+### Merge Datasets
 - Integrate macroeconomic indicators with donation statistics for correlation and trend analysis.
 
-#### Handling Confounding Variables
+### Handling Confounding Variables
 - Include additional variables such as government policies, tax incentives, and cultural factors that could influence donation behaviors, ensuring a more robust analysis of causal relationships.
 
 ---
 
 ## Analysis Plan
 
-#### **Exploratory Data Analysis (EDA)**
+### **Exploratory Data Analysis (EDA)**
 - **Examine** donation trends in the United States and Europe during different economic conditions.
 - **Visualize** relationships between macroeconomic indicators and donations using scatter plots, line charts, and correlation heatmaps.
 - **Compare** trends between regions to highlight differences in economic environments and reporting practices.
