@@ -1,5 +1,24 @@
 # DSA210 Project: The Impact of Macroeconomic Indicators on Donations
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Motivation](#motivation)
+- [Objectives](#objectives)
+- [Hypotheses](#hypotheses)
+- [Data Sources](#data-sources)
+- [Data Collection and Preprocessing](#data-collection-and-preprocessing)
+- [Analysis Plan](#analysis-plan)
+- [Tools and Technologies](#tools-and-technologies)
+- [Expected Challenges](#expected-challenges)
+- [Expected Findings](#expected-findings)
+- [Limitations](#limitations)
+- [Future Work](#future-work)
+- [Conclusion](#conclusion)
+- [Disclaimer](#disclaimer)
+
+---
+
 ## Project Overview
 
 I am Neslihan Ünal, a sophomore at Sabancı University majoring in Computer Science and Economics. This project, conducted as part of my DSA210 course, examines how macroeconomic indicators—GDP growth, inflation rates, and unemployment rates—affect charitable donations. The objective is to assess whether economic fluctuations influence donation patterns and provide insights for nonprofit organizations and policymakers.
@@ -43,31 +62,61 @@ By integrating economic theory with data analysis, this research will contribute
 ## Data Sources
 
 - **Macroeconomic Indicators:**  
-  - GDP growth, inflation rates, and unemployment rates from **World Bank, OECD, FRED Economic Database, and Eurostat**.
+  - GDP growth, inflation rates, and unemployment rates.
+  - Data will be sourced from reputable databases such as:
+     - [World Bank](https://www.worldbank.org)
+     - [OECD](https://www.oecd.org)
+     - [FRED Economic Database](https://fred.stlouisfed.org)
+     - [Eurostat](https://ec.europa.eu/eurostat)
+
 
 - **Donation Data:**  
-  - Historical donation statistics sourced from **nonprofit annual reports, World Bank philanthropy reports, OECD databases, FRED records, Charity Navigator (USA), and Giving Europe reports**.
+  - Historical donation statistics will be obtained from:
+    - Nonprofit annual reports
+    - World Bank philanthropy reports
+    - OECD databases
+    - FRED records
+    - [Charity Navigator](https://www.charitynavigator.org) (USA)
+    - Giving Europe reports
 
 ---
 
 ## Data Collection and Preprocessing
 
-- **Collect data**: Retrieve macroeconomic indicator data from official databases and donation records from nonprofit organizations.
-- **Clean and preprocess data**: Align timestamps, standardize formats, address missing values, and remove outliers.
-- **Merge datasets**: Integrate macroeconomic indicators with donation statistics for correlation and trend analysis.
+### Collect Data
+- Retrieve macroeconomic indicator data from official databases.
+- Obtain donation records from nonprofit organizations and related sources.
+
+### Clean and Preprocess Data
+- **Align timestamps** and standardize formats.
+- **Address missing values** and remove outliers.
+- **Account for regional differences** in data reporting standards between the United States and Europe.
+
+### Merge Datasets
+- Integrate macroeconomic indicators with donation statistics for correlation and trend analysis.
+
+### Handling Confounding Variables
+- Include additional variables such as government policies, tax incentives, and cultural factors that could influence donation behaviors, ensuring a more robust analysis of causal relationships.
 
 ---
 
 ## Analysis Plan
 
 ### **Exploratory Data Analysis (EDA)**
-- Examine donation trends in the **United States and Europe** during different economic conditions.
-- Visualize relationships between macroeconomic indicators and donations using scatter plots, line charts, and correlation heatmaps.
+- **Examine** donation trends in the United States and Europe during different economic conditions.
+- **Visualize** relationships between macroeconomic indicators and donations using scatter plots, line charts, and correlation heatmaps.
+- **Compare** trends between regions to highlight differences in economic environments and reporting practices.
 
 ### **Statistical Analysis**
-- Conduct correlation analysis to measure relationships between economic factors and donations.
-- Apply **linear regression models** to quantify the impact of macroeconomic indicators on donation amounts.
-- Perform hypothesis testing to validate statistical significance.
+- **Correlation Analysis:**  
+  Measure relationships between economic factors and donations.
+- **Regression Analysis:**  
+  Apply linear regression models to quantify the impact of macroeconomic indicators on donation amounts.
+  - **Multicollinearity:** Address potential multicollinearity among predictors using techniques such as Variance Inflation Factors (VIF) or Principal Component Analysis.
+- **Hypothesis Testing:**  
+  Validate statistical significance using appropriate tests.
+- **Robustness Checks:**  
+  Incorporate methods to validate the predictive models, ensuring reliability and accuracy.
 
 ### **Predictive Modeling**
 - Develop **predictive models** (e.g., linear regression, random forest regression) to forecast donation behaviors based on economic trends.
@@ -76,16 +125,24 @@ By integrating economic theory with data analysis, this research will contribute
 
 ## Tools and Technologies
 
-- **Python** for data analysis and visualization (Pandas, NumPy, Matplotlib, Seaborn).
-- **Statistical libraries** (Scikit-learn, SciPy) for hypothesis testing and regression analysis.
+- **Programming Language:** Python
+- **Data Analysis and Visualization:** Pandas, NumPy, Matplotlib, Seaborn
+- **Statistical Libraries:** Scikit-learn, SciPy
+- **Additional Techniques:** Methods for detecting multicollinearity and validating predictive models
+
 
 ---
 
 ## Expected Challenges
 
-- **Data availability**: Donation records may vary across regions and organizations, requiring careful dataset selection.
-- **Standardization issues**: Different organizations and countries report donations using different formats.
-- **Distinguishing correlation from causation**: Additional external factors could influence donation trends.
+- **Data Availability:**  
+  Donation records may vary across regions and organizations, requiring careful dataset selection.
+- **Standardization Issues:**  
+  Different organizations and countries report donations using different formats.
+- **Confounding Variables:**  
+  External influences such as government policies, tax incentives, and regional cultural factors may also impact donation behaviors.
+- **Causality vs. Correlation:**  
+  Distinguishing true causal relationships from mere correlations in the presence of multiple influencing factors.
 
 ---
 
@@ -94,14 +151,16 @@ By integrating economic theory with data analysis, this research will contribute
 - Identify how different macroeconomic indicators correlate with donation levels in the **United States and Europe**.
 - Determine whether **economic downturns lead to lower charitable contributions** or whether donors increase giving during crises.
 - Provide data-driven recommendations for nonprofits in the **education and disaster relief sectors** on how to **adapt to economic fluctuations**.
+- Offer insights into the effectiveness of public policies and incentive structures on fostering charitable giving.
+
 
 ---
 
 ## Limitations
 
-- Analysis is based on publicly available data, which may not capture private donation trends.
+- Analysis is based on **publicly available data,** which **may not capture private donation** trends.
 - Different countries and organizations follow **varying reporting standards**, affecting data consistency.
-- External influences, such as government policies and tax incentives, may also impact donation behaviors.
+- External influences, such as **government policies and tax incentives,** may also impact donation behaviors.
 
 ---
 
